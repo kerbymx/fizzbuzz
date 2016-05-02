@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+var output ="";
+for (var i = 1; 1 <= 100; i+=1) {
+	if (0 === i % 15) {
+		output += "fizzbuzz";
+	} else if (0 === i % 3) {
+		output += "fizz";
+	} else if (0 === i % 5) {
+		output += "buzz";
+	} else if {
+		output += i;
+	}
+	output += " ";
+}
+console.log(output);
